@@ -16,7 +16,7 @@
     height: 100vh;
 }
 
-.container h1{
+.conteudo h1{
     color: #175cff;
 }
 
@@ -25,4 +25,51 @@
     font-size: 55px;
     font-weight: bold;
     color: #333;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    color: #102b6b;
+    min-width: 90px;
+}
+
+.separador {
+    padding: 0 10px;
+    color: #525763;
+}
+
+#milisegundos {
+    font-size: 30px;
+    color: #525763;
+}
+
+.botoes{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: all 0.2s ease-in-out ;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+#start {
+    background-color: #175cff;
+    color: white;
+}
+
+#pause, #resume{
+    display: none;
 }
